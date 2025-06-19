@@ -1,0 +1,26 @@
+{
+    "plant": "example_plant",
+    "local_file_path": "/dev/shm/example_plant_data/",
+    "bucket_name": "your_bucket_name",
+    "directory_s3": "example_plant/scada/",
+    "default_year": 2024,
+    "default_month": 8,
+    "default_day": 1,
+    "files": {
+        "sensor_data_1.parquet": "sensor_1",
+        "sensor_data_2.parquet": "sensor_2"
+    },
+    "patterns": [
+        "sensor/module/temp_1$",
+        "sensor/module/temp_2$",
+        "sensor/module/temp_3$"
+    ],
+    "database": {
+        "user": "your_username",
+        "password": "your_password",
+        "host": "your_host",
+        "dbname": "your_dbname"
+    },
+    "aws_access_key": "your_access_key",
+    "aws_secret_key": "your_secret_key"
+}
